@@ -192,7 +192,7 @@ footer.credit{text-align:center;margin-top:22px;font-family:'Hi Melody',cursive;
 
   <div class="mascot-row">
     <div class="mascot">🏮</div>
-    <div class="speech">초롱이가 종로 골목골목 다 확인해봤어요! 오늘은 슬로우핸드랑 캐스팅 제대로 가보시죠 🐾</div>
+    <div class="speech">초롱이가 종로 골목골목 다 확인해봤어요! 궁금한 곳은 "위치·메뉴 보기" 눌러서 네이버 지도로 사진·메뉴까지 바로 확인해보세요 🐾</div>
   </div>
 
   <div class="tabbar">
@@ -348,7 +348,7 @@ function cardHTML(item, idx, stepLabel=''){
       ${menuHTML}
       <div class="meta-row"><span class="addr">${item.addr}</span>${hoursHTML}</div>
       <div class="btn-row">
-        <a class="btn map" href="${mapLink(item.name, item.addr)}" target="_blank" rel="noopener">🗺 지도</a>
+        <a class="btn map" href="${mapLink(item.name, item.addr)}" target="_blank" rel="noopener">🗺 위치·메뉴 보기</a>
         ${callHTML}
         ${reserveHTML}
       </div>
@@ -375,7 +375,7 @@ function anchorCardHTML(item, badgeLabel='🌟 준석 PICK', extraClass='', step
       ${menuHTML}
       <div class="meta-row"><span class="addr">${item.addr}</span><span class="hours">${item.hours||''}</span></div>
       <div class="btn-row">
-        <a class="btn map" href="${mapLink(item.name, item.addr)}" target="_blank" rel="noopener">🗺 지도</a>
+        <a class="btn map" href="${mapLink(item.name, item.addr)}" target="_blank" rel="noopener">🗺 위치·메뉴 보기</a>
         ${callHTML}
         ${reserveHTML}
       </div>
